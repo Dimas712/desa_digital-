@@ -1,6 +1,5 @@
 import MarqueeElement from "../../../../components/Marquee";
-import MapsIllustration from "../components/MapsIllustration";
-import RequestCertButton from "../components/RequestCertButton";
+import MapsIllustration from "../component/MapsIllustration";
 
 const sliderItems = [
   "SK Izin Keluarga",
@@ -34,7 +33,6 @@ function HeroSection() {
         <h3 className="text-xl mt-[18px]">
           Mengurus surat online dengan mudah, cepat dan efisien
         </h3>
-        <RequestCertButton />
       </div>
       <div className="absolute mt-3 bottom-14 w-full">
         {Array.from({ length: 2 }, (_, index) => (

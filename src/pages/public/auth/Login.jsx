@@ -68,7 +68,7 @@ const Login = () => {
 
           <p className="mt-10 text-center text-sm text-gray-500">
             Belum punya akun?{' '}
-            <a href="/Signup" className="font-semibold leading-4 text-indigo-600 hover:text-indigo-500">
+            <a href="/auth/signup" className="font-semibold leading-4 text-indigo-600 hover:text-indigo-500">
               Daftar
             </a>
           </p>

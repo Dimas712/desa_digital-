@@ -1,15 +1,18 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-import Navigation from "./components/Navigation"
 import Login from './pages/public/auth/Login';
 import Signup from './pages/public/auth/Signup';
+import BaseLayout from './components/Baselayout';
+import AboutPage from './pages/public/about/AboutPage';
 
 function App() {
   return (
     <div>
       <Router>
       <Routes>
-        <Route path="/" element={<Login/>} />
-        <Route path="/signup" element={<Signup/>} />
+        <Route path="/" element={<BaseLayout/>} />
+        <Route path="/about" element={<AboutPage/>} />
+        <Route path="/auth/login" element={<Login/>} />
+        <Route path="/auth/signup" element={<Signup/>} />
       </Routes>
       </Router>
     </div>

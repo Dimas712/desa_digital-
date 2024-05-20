@@ -1,4 +1,4 @@
-import AboutItem from "../components/AboutItem";
+import AboutItem from "../component/AboutItem";
 
 function AboutSection() {
   return (

@@ -1,7 +1,7 @@
 import { useEffect } from "react";
-import AboutSection from "./sections/about.section";
-import HeroSection from "./sections/hero.section";
-import StepSection from "./sections/step.section";
+import AboutSection from "./section/about.section";
+import HeroSection from "./section/hero.section";
+import StepSection from "./section/step.section";
 
 function HomePage() {
   return (
