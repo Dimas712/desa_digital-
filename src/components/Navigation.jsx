@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom'
 const navigation = [
   { name: 'Beranda', href: '/', current: true },
   { name: 'Tentang Kami', href: '/about', current: false },
-  { name: 'Pertanyaan Umum', href: '#', current: false },
+  { name: 'Pertanyaan Umum', href: '/faq', current: false },
 ]
 
 function classNames(...classes) {

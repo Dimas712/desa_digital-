@@ -8,7 +8,7 @@ export default function Footer() {
           <div className="mb-6 md:mb-0 max-w-[300px]">
             <a className="flex items-center pb-6">
               <span className="self-center text-primary text-2xl font-semibold whitespace-nowrap leading-none">
-                <img className="w-[159px]" src="/assets/images/main_logo.png" />
+                <img className="w-[159px]" src="" />
               </span>
             </a>
             <a>
